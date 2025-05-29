@@ -1,0 +1,80 @@
+Today, let's start with the first topic of Python  Challenge:
+
+Variables & Data Types
+
+
+What is a variable?
+
+Think of a variable as a label on a container that holds some data. You create a variable by giving it a name and putting a value inside.
+
+In Python, it looks like this:
+
+name = "Aaaru"
+age = 25
+height = 5.9
+is_student = True
+
+- name holds text (called a string) — notice the quotes!
+
+- age holds a whole number (integer)
+
+- height holds a decimal number (float)
+
+- is_student holds a True/False value (boolean)
+
+You can check a variable’s type using type():
+
+print(type(name))    # <class 'str'>
+print(type(age))     # <class 'int'>
+
+
+Why use variables?
+
+They let you store information so your program can remember it and use it later — like a player's score or your name.
+
+Valid Variable Names
+
+Python has some rules for naming variables:
+
+✅ Must start with a letter or underscore
+✅ Can contain letters, numbers, and underscores
+❌ Cannot start with a number
+❌ Cannot use Python’s built-in keywords like if, while, class, etc.
+
+Examples:
+
+user_name = "Amit"   # valid
+_user2 = "Riya"      # valid
+2nd_user = "Error!"  # ❌ Invalid: starts with number
+
+
+Let’s build a small project!
+
+We’ll write a simple program that asks for your name, age, and favorite hobby, then prints a fun personalized message.
+
+Here’s the full code:
+
+# Ask the user for their name and save it in a variable
+name = input("What's your name? ")
+
+# Ask for their age and save it
+age = input("How old are you? ")
+
+# Ask for their favorite hobby and save it
+hobby = input("What's your favorite hobby? ")
+
+# Print a personalized message using the info collected
+print(f"Hey {name}! So you’re {age} years old and love {hobby}. That’s awesome!")
+
+How this works:
+
+input() waits for you to type something and press Enter — whatever you type gets saved in the variable.
+
+print() shows a message on the screen.
+
+The f"" means you can include variables inside the message for personalization.
+
+
+React with ❤ once you’re ready for the quiz
+
+Python Coding Challenge: https://whatsapp.com/channel/0029VaiM08SDuMRaGKd9Wv0L/1661
