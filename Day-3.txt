@@ -1,0 +1,52 @@
+
+Topic - Strings & String Methods
+
+A string is a sequence of characters inside quotes. You can use:
+
+name = "Alice"
+greeting = 'Hello!'
+paragraph = """This is
+a multiline string."""
+
+👉 Strings are immutable — once created, they can't be changed directly.
+
+
+✨ Common String Methods
+
+Here are some useful methods you’ll use all the time:
+
+lower() → makes everything lowercase
+
+upper() → makes everything uppercase
+
+strip() → removes spaces from start and end
+
+replace("old", "new") → replaces parts of a string
+
+split() → splits text into a list of words
+
+count("word") → counts how many times something appears
+
+find("word") → finds the position of a word
+
+startswith("Hello") → checks how a string begins
+
+endswith("world") → checks how a string ends
+
+
+🧪 Examples
+
+msg = "  Python is Awesome!  "
+
+print(msg.lower())        # python is awesome!
+print(msg.strip())        # Python is Awesome!
+print(msg.replace("Awesome", "Powerful"))  # Python is Powerful!
+print(msg.split())        # ['Python', 'is', 'Awesome!']
+
+
+Mini Project:
+
+🛠 Project 1: Word Counter
+
+🌀 Project 2: Palindrome Checker
+
