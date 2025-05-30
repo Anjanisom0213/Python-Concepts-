@@ -1,0 +1,73 @@
+Topic - Lists & Tuples
+
+🔹 What is a List? 
+
+A list is a mutable (changeable) collection of items in a specific order.
+
+Syntax:
+
+fruits = ["apple", "banana", "cherry"]
+
+print(fruits[0])    # Output: apple
+
+fruits.append("mango") 
+
+print(fruits)        # Output: ['apple', 'banana', 'cherry', 'mango']
+
+✅ You can add, remove, or update elements in a list.
+
+
+🔸 What is a Tuple? 
+
+A tuple is similar to a list, but it's immutable (unchangeable once defined).
+
+Syntax:
+
+colors = ("red", "green", "blue")
+print(colors[1])     # Output: green
+
+🔒 You cannot modify, append, or remove elements from a tuple after creation.
+
+
+✅ Key Differences:
+
+Mutability:
+
+- List: Mutable — you can change, add, or remove elements after creation.
+- Tuple: Immutable — once defined, you cannot change, add, or remove elements.
+
+
+Syntax:
+
+- List: Use square brackets → []
+
+my_list = [1, 2, 3]
+
+- Tuple: Use round brackets → ()
+
+my_tuple = (1, 2, 3)
+
+
+Use Case:
+
+- List: Use when you need to modify the collection later.
+
+- Tuple: Use when the data should remain constant or to ensure integrity.
+
+Performance:
+
+Tuple is slightly faster than List due to immutability and fixed size.
+
+
+🛠 Mini Project: Grocery List Manager
+
+Let’s build a simple grocery list app where you can:
+
+- Add items
+
+- Remove items
+
+- Display all items
+
+
+
