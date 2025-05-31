@@ -70,4 +70,3 @@ Let’s build a simple grocery list app where you can:
 - Display all items
 
 
-
