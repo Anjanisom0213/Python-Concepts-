@@ -4,7 +4,7 @@ num2 = float(input("Enter second number: "))
 
 op = input("Enter operator (+, -, *, /): ")
 
-if op == "+":5
+if op == "+":
     print(num1 + num2)
 elif op == "-":
     print(num1 - num2)
