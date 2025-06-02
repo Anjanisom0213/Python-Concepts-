@@ -1,0 +1,53 @@
+
+Topic - Dictionaries & Sets 🔑🧺
+
+🔹 What is a Dictionary in Python? 
+
+A dictionary is an unordered, mutable collection that stores data in key-value pairs.
+
+🧠 Example:
+
+student = {
+    "name": "Amit",
+    "age": 21,
+    "course": "Python"
+}
+
+print(student["name"])  # Output: Amit
+
+- Keys must be unique and immutable (like strings, numbers).
+- Values can be anything: strings, numbers, lists, or even other dictionaries.
+
+
+🧰 Common Dictionary Methods: 
+
+student.get("age")         # Returns 21
+student.keys()             # Returns all keys
+student.values()           # Returns all values
+student.items()            # Returns key-value pairs
+student["grade"] = "A+"    # Adds a new key-value pair
+
+
+🔹 What is a Set in Python? 
+
+A set is an unordered collection of unique elements.
+
+🧠 Example :
+
+numbers = {1, 2, 3, 4, 4, 2}
+print(numbers)  # Output: {1, 2, 3, 4} — no duplicates
+
+- Sets remove duplicates automatically.
+- Useful for membership checks, uniqueness, and set operations (union, intersection).
+
+
+✅ Real-Life Project: Contact Book using Dictionary 
+
+- Build a CLI-based contact book where users can:
+- Add new contacts (name, phone)
+- View all contacts
+- Search by name
+- Delete a contact
+
+
+
